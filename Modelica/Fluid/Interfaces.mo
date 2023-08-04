@@ -764,8 +764,8 @@ The following boundary flow and force terms are part of the momentum balance and
 </p>
 <ul>
 <li><code><strong>Ib_flow</strong></code>, the flow of momentum across model boundaries,</li>
-<li><code><strong>F_p[m]</strong></code>, pressure force, and</li>
-<li><code><strong>F_fg[m]</strong></code>, friction and gravity forces.</li>
+<li><code><strong>F_p</strong></code>, pressure force, and</li>
+<li><code><strong>F_fg</strong></code>, friction and gravity forces.</li>
 </ul>
 <p>
 The length of the flow path <code><strong>pathLength</strong></code> is an input that needs to be set in an extending class to complete the model.
